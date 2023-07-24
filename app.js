@@ -327,7 +327,7 @@ app.put('/Tatuajes/DestacadosEditar/:id', (req, res) => {
   });
 });
 
-//Rutas
+//Rutass
 app.get("/", (req, res, next) => {
   res.status(200).json({
     ok: true,
